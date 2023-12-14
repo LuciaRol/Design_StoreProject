@@ -1,0 +1,30 @@
+/* Fuentes importadas que se van a usar */
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Kalnia:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Kalnia:wght@200&family=Tajawal&display=swap');
+
+/* Reinicio de todos los valores del sitio */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Declaración de variables */
+:root{
+    font-size: 62.5%;
+    --tittle-font: 'Kalnia', serif;
+    --main-font: 'Tajawal', sans-serif;
+    --main-color-gray: #c8c8c8;
+    --main-color-lightgray: #e3e3e3;
+    --main-color-verylightgray: #fefefe;
+    --secondary-color-black: #000;
+    --terciary-color-white: #fff;
+}
+
+/* Estilos generales */
+body{
+    background-color: #fff;
+    color: var(--secondary-color-black);
+    font-size: 12px;
+}

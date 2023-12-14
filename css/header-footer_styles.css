@@ -1,0 +1,187 @@
+/* HEADER */
+
+/* Menú general del header */
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color-lightgray);
+    padding: 20px 0;
+    border-bottom: 2px solid var(--main-color-gray);
+}
+
+/* Título principal y adornos */
+
+.menu__ornament--icon {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.menu__ornament--icon i{
+    background-color: var(--secondary-color-black);
+    border-radius: 2px;
+}
+
+.fa-solid{
+    width: 50px;
+}
+
+.menu__ornament--tittle{
+    font-family: var(--tittle-font);
+}
+
+.menu__ornament--tittle--a{
+    text-decoration: none;
+    color: var(--secondary-color-black);
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+/* Iconos de usuario, carrito y búsqueda */
+.menu__container--icons{
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 65px;
+    right: 10px;
+}
+
+
+/* Menú hamburguesa */
+.menu__container{
+    position:fixed;
+    left: 10px;
+    
+}
+
+.menu--btn {
+    display: block;
+    width: 37px;
+    height: 37px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    left: 10px;
+}
+
+.line {
+    width: 80%;
+    height: 4px;
+    border-radius: 25px;
+    background-color: var(--secondary-color-black);
+    margin: 5px 0px;
+}
+
+/* Menú de navegación que se activa cuando se clica en el menú hamburguesa */
+/* .menu__nav {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.menu__nav--options {
+    visibility: hidden;
+    display: none;
+}
+
+
+/* FOOTER */
+.footer{
+    font-family: var(--main-font);
+    font-size: 1.2em;
+
+}
+
+.footer__container1{
+    background-color: #000;
+    color: var(--main-color-verylightgray);
+}
+  
+
+/* Newsletter */
+.footer__newsletter{
+    border-bottom: 1px solid var(--main-color-verylightgray);
+    gap: 20px;
+}
+
+.footer__newsletter--subtittle{
+
+}
+
+.footer__newsletter--p{
+
+}
+
+.footer__newsletter--input{
+    padding: 5px;
+    background-color: #000;
+    border: none;
+    outline: none;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+
+}
+
+.footer__newsletter--btn{
+    background-color: var(--main-color-verylightgray);
+    cursor: pointer;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.footer__newsletter--link{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+/* Localización */
+.footer__location{
+    border-bottom: 1px solid var(--main-color-verylightgray);
+}
+
+.footer__location--subtittle{
+    
+
+}
+
+/* Redes sociales */
+.footer__socialmedia{
+    border-bottom: 1px solid var(--main-color-verylightgray);
+}
+
+.footer__socialmedia--image{
+
+}
+
+.footer__socialmedia--link{
+
+}
+        
+ 
+.footer__container2{
+
+}
+.footer__menu{
+
+}
+.footer__menu--option{
+
+}
+.footer__menu--option{
+
+}
+      
+
+.footer__copyright{
+
+}

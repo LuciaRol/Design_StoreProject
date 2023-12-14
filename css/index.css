@@ -1,0 +1,45 @@
+/* HERO */
+
+/* Carrusel de imágenes */
+
+ .slider-container {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    background-color: gray;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    animation: scroll 8s linear infinite; 
+  }
+
+
+/* Valores de la animación */
+@keyframes scroll {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(calc(-100vw * 1));
+    }
+    75% {
+        transform: translateX(calc(-100vw * 1));
+    }
+}
+
+
+ 
+
+
+
+
+
